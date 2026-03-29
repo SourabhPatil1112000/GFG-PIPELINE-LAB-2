@@ -44,6 +44,13 @@ pipeline
 					echo 'Final Success'
 				}
 			}	
+			stage('Super Final Success')
+			{
+				steps
+				{
+					echo 'Super Final Success'
+				}
+			}
 
 		}
 }
