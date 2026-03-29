@@ -37,5 +37,13 @@ pipeline
 				}
 			}	
 
+			stage('Final Success')
+			{
+				steps
+				{
+					echo 'Final Success'
+				}
+			}	
+
 		}
 }
